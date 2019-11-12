@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libSampleModels.a  CMakeFiles/SampleModels.dir/sample_models.cpp.o
+/usr/bin/ranlib lib/libSampleModels.a

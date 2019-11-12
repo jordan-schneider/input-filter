@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libMultinomial.a  CMakeFiles/Multinomial.dir/multinomial.cpp.o
+/usr/bin/ranlib lib/libMultinomial.a

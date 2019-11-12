@@ -1,0 +1,5 @@
+if(EXISTS "/home/joschnei/input-filter/c++/build/MultinomialTests[1]_tests.cmake")
+  include("/home/joschnei/input-filter/c++/build/MultinomialTests[1]_tests.cmake")
+else()
+  add_test(MultinomialTests_NOT_BUILT MultinomialTests_NOT_BUILT)
+endif()

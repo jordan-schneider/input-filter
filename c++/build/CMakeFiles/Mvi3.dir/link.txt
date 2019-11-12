@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libMvi3.a  CMakeFiles/Mvi3.dir/mvi3/mvi3.cpp.o
+/usr/bin/ranlib lib/libMvi3.a

@@ -1,0 +1,5 @@
+if(EXISTS "/home/joschnei/input-filter/c++/build/MetropolisHastingsTests[1]_tests.cmake")
+  include("/home/joschnei/input-filter/c++/build/MetropolisHastingsTests[1]_tests.cmake")
+else()
+  add_test(MetropolisHastingsTests_NOT_BUILT MetropolisHastingsTests_NOT_BUILT)
+endif()

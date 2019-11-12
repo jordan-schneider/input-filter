@@ -1,0 +1,5 @@
+if(EXISTS "/home/joschnei/input-filter/c++/build/ModelDistributionTests[1]_tests.cmake")
+  include("/home/joschnei/input-filter/c++/build/ModelDistributionTests[1]_tests.cmake")
+else()
+  add_test(ModelDistributionTests_NOT_BUILT ModelDistributionTests_NOT_BUILT)
+endif()
