@@ -1,0 +1,5 @@
+if(EXISTS "/home/joschnei/input-filter/c++/build/RandomnessTests[1]_tests.cmake")
+  include("/home/joschnei/input-filter/c++/build/RandomnessTests[1]_tests.cmake")
+else()
+  add_test(RandomnessTests_NOT_BUILT RandomnessTests_NOT_BUILT)
+endif()

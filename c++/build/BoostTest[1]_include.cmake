@@ -1,0 +1,5 @@
+if(EXISTS "/home/joschnei/input-filter/c++/build/BoostTest[1]_tests.cmake")
+  include("/home/joschnei/input-filter/c++/build/BoostTest[1]_tests.cmake")
+else()
+  add_test(BoostTest_NOT_BUILT BoostTest_NOT_BUILT)
+endif()

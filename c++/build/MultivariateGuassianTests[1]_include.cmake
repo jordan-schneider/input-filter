@@ -1,0 +1,5 @@
+if(EXISTS "/home/joschnei/input-filter/c++/build/MultivariateGuassianTests[1]_tests.cmake")
+  include("/home/joschnei/input-filter/c++/build/MultivariateGuassianTests[1]_tests.cmake")
+else()
+  add_test(MultivariateGuassianTests_NOT_BUILT MultivariateGuassianTests_NOT_BUILT)
+endif()

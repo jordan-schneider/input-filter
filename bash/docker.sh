@@ -1,0 +1,1 @@
+sudo docker run --name mcparseface --rm -i -t -v $PWD/app-vol:/root/models/syntaxnet/volume brianlow/syntaxnet-docker bash

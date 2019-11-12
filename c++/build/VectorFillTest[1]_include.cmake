@@ -1,0 +1,5 @@
+if(EXISTS "/home/joschnei/input-filter/c++/build/VectorFillTest[1]_tests.cmake")
+  include("/home/joschnei/input-filter/c++/build/VectorFillTest[1]_tests.cmake")
+else()
+  add_test(VectorFillTest_NOT_BUILT VectorFillTest_NOT_BUILT)
+endif()

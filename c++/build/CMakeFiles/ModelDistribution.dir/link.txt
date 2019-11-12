@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libModelDistribution.a  CMakeFiles/ModelDistribution.dir/model_distribution.cpp.o
+/usr/bin/ranlib lib/libModelDistribution.a

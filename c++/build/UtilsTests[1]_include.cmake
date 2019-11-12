@@ -1,0 +1,5 @@
+if(EXISTS "/home/joschnei/input-filter/c++/build/UtilsTests[1]_tests.cmake")
+  include("/home/joschnei/input-filter/c++/build/UtilsTests[1]_tests.cmake")
+else()
+  add_test(UtilsTests_NOT_BUILT UtilsTests_NOT_BUILT)
+endif()

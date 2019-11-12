@@ -1,0 +1,11 @@
+This folder contains files that are inputs to JointDistributionLearner.
+
+This folder might contain the following:
+
+1. A copy of the CELEX corpus.
+1. A copy of the EFCAMDAT2 corpus with syntactic annotations.
+1. An 'alphas.txt' file, containing all determiners in EFCAMDAT2 and their alpha values.
+1. A 'counts/det_cat_counts_clean.csv' file, containing the raw cateogory counts. This is produced by python/preprocess.py using CELEX and EFCAMDAT2.
+1. Some number of 'counts/downsampled_to_[N].csv' files containing counts that have been uniformly downsampled to N total observations.
+1. Some number of 'counts/each_downsampled_to_[N].csv' files containing counts that have been downsampled to N observations for each determiner.
+1. A 'dets.txt' file, containing a list of determiners.

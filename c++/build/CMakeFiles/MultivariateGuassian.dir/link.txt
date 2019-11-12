@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libMultivariateGuassian.a  CMakeFiles/MultivariateGuassian.dir/multivariate_guassian.cpp.o
+/usr/bin/ranlib lib/libMultivariateGuassian.a

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/joschnei/input-filter/c++/mvi3/mvi3.cpp
+mvi3.hpp
+/home/joschnei/input-filter/c++/mvi3/mvi3.hpp
+stdio.h
+-
+unistd.h
+-
+fstream
+-
+string
+-
+vector
+-
+
+/home/joschnei/input-filter/c++/mvi3/mvi3.hpp
+fstream
+-
+string
+-
+vector
+-
+
